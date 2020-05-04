@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "orient",
+	"version": "1.0.0",
+	"name": "Orient",
+	"description": "Makes more blocks rotatable.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Orient#readme",
+		"issues": "https://github.com/haykam821/Orient/issues"
+	},
+	"mixins": [
+		"orient.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/orient/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
