@@ -32,7 +32,7 @@ public abstract class BlockMixin {
 	@Unique
 	private boolean shouldMakeRotatable() {
 		Block block = (Block) (Object) this;
-		return block instanceof CraftingTableBlock;
+		return block instanceof CraftingTableBlock || block instanceof CartographyTableBlock;
 	}
 
 	@Inject(method = "<init>", at = @At("TAIL"))
